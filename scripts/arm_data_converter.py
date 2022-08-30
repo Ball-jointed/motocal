@@ -105,7 +105,9 @@ skillnamelist["supplementalEmnity"] = {
 }
 
 skillnamelist["supplementalOugi"] = {
-    u"金の誓約": "earth"
+    u"金の誓約": "earth",
+    u"雪の極意": "water",
+    u"煌の極意": "light"
 }
 
 skillnamelist["normalBoukunLLL"] = {
@@ -1002,6 +1004,10 @@ skillnamelist["exATKandHPM"] = {
 
 skillnamelist["zwei-echo"] = {
     u"レッド・ブロウ": "fire",
+    u"ブルー・ブロウ": "water",
+    u"イエロー・ブロウ": "earth",
+    u"グリーン・ブロウ": "wind",
+    u"ライト・ブロウ": "light",
     u"パープル・ブロウ": "dark",
 }
 
@@ -1025,7 +1031,11 @@ skillnamelist["strengthLLL"] = {
 
 skillnamelist["strengthLLandHPS"] = {
     u"真・灼滅の覇道": "fire",
-    u"真・裁考の覇道": "earth"
+    u"真・裁考の覇道": "earth",
+    u"真・人馬の覇道": "wind",
+    u"真・氷逆の覇道": "water",
+    u"真・幻魔の覇道": "dark",
+    u"真・妃光の覇道": "light"
 }
 
 skillnamelist["normalSoka"] = {
@@ -1039,6 +1049,9 @@ skillnamelist["magnaSoka"] = {
 skillnamelist["sensei"] = {
     u"先制の炎刃": "fire",
     u"先制の氷刃": "water",
+    u"先制の光刃": "light",
+    u"先制の地刃": "earth",
+    u"先制の風刃": "wind",
     u"先制の闇刃": "dark",
 }
 
@@ -1133,7 +1146,7 @@ skillnamelist["cosmos-bow-limit"] = {u"秩序の蒼弓": "light"}
 skillnamelist["cosmos-music-limit"] = {u"秩序の蒼琴": "light"}
 skillnamelist["cosmos-katana-limit"] = {u"秩序の蒼刀": "light"}
 
-# Tenshi
+# Seraphic
 skillnamelist["tenshiShukufukuIII"] = {
     u"ミカエルの祝福III": "fire",
     u"ガブリエルの祝福III": "water",
@@ -1175,7 +1188,10 @@ skillnamelist["shinTenNoInori"] = {
 skillnamelist["normalDamageLimit7"] = {
     u"炎熱の刀身": "fire",
     u"賢者の加護": "earth",
-    u"英雄の体躯": "light"
+    u"英雄の体躯": "light",
+    u"雪の真髄": "water",
+    u"煌の真髄": "light",
+    u"煉の真髄": "dark",
 }
 skillnamelist["normalDamageLimit10"] = {
     u"靂天の極致": "dark",
@@ -1270,7 +1286,9 @@ skillnamelist["supplementalMulti"] = {
 }
 
 skillnamelist["supplementalStaminaOugi"] = {
-    u'黒の誓約': "dark"
+    u'黒の誓約': "dark",
+    u'煌の慈雨': "light",
+    u'雪の慈雨': "water",
 }
 
 armtypelist = OrderedDict()
@@ -1286,8 +1304,40 @@ armtypelist[u"楽器"] = "music"
 armtypelist[u"刀"] = "katana"
 
 SERIES = {
-    u"エピックウェポン": "epic",
+    u"セラフィックウェポン": "seraphic",
     u"リミテッドシリーズ": "grand",
+    u"終末の神器": "dark opus",
+    u"ドラゴニックウェポン": "draconic",
+    u"天星器": "revenant",
+    u"十天光輝": "eternal splendor",
+    u"プライマルシリーズ": "primal",
+    u"四象武器": "beast",
+    u"レガリアシリーズ": "regalia",
+    u"マグナシリーズ": "omega",
+    u"オールド・プライマルシリーズ": "olden primal",
+    u"ミーレスシリーズ": "militis",
+    u"虚ろなる神器": "hollowsky",
+    u"六道武器": "xeno",
+    u"アストラルウェポン": "astral",
+    u"ローズシリーズ": "rose",
+    u"オメガウェポン": "ultima",
+    u"バハムートウェポン": "bahamut",
+    u"エピックウェポン": "epic",
+    u"エニアドシリーズ": "ennead",
+    u"マリスシリーズ": "malice",
+    u"メナスシリーズ": "menace",
+    u"コスモスシリーズ": "cosmos",
+    u"アンセスタルシリーズ": "ancestral",
+    u"スペリオルシリーズ": "superlative",
+    u"ヴィンテージシリーズ": "vintage",
+    u"英雄武器": "class champion",
+    u"複製品": "replicas",
+    u"依代": "relics",
+    u"朽ち果てた武器": "rusted",
+    u"セフィリアン・オールドウェポン": "sephira",
+    u"新世界の礎": "new world foundation",
+    u"オイラは": "vyrmament",
+    u"強化素材": "upgraders",
 }
 
 ########################################################################################################################
