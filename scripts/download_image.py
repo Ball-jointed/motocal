@@ -184,7 +184,7 @@ def transform_wiki_url(file_name: str) -> str:
     >>> b'img'.hex().upper()
     '696D67'
     """
-    url = r'http://gbf-wiki.com/attach2/696D67_{}.png'
+    url = r'http://gbf-wiki.com/attach2/696D67_{}.jpg'
     return url.format(file_name.encode('utf-8').hex().upper())
 
 

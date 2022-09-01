@@ -776,7 +776,7 @@ def get_value(value_str):
 
 
 def processCSVdata(csv_file_name, json_data, image_wiki_url_list, image_game_url_list):
-    key_pattern = re.compile("(\w+\.png)")
+    key_pattern = re.compile("(\w+\.jpg)")
     br_pattern = re.compile("(\w+)(?:&br;|\/)(\w+)")
     support_pattern2 = re.compile("([\W\w]+)&br;([\W\w]+)")
     support_pattern3 = re.compile("([\W\w]+)&br;([\W\w]+)&br;([\W\w]+)")
