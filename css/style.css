@@ -368,12 +368,12 @@
 
     /* charaPresets */
     .charaTemplate {
-        width: 100%;
+        width: 590px;
         height: 80%;
     }
 
     .charaTemplateContent {
-        width: 100%;
+        width: 590px;
         height: 75%;
         overflow: scroll;
     }
@@ -386,14 +386,14 @@
     }
 
     .onechara {
-        width: calc(100%/3 - 2px);
+        width: 144px;
         float: left;
         display: inline;
         overflow: auto;
-        margin: 4px 1px;
+        margin: 1px 1px;
         border:1px solid #258;
         border-radius: 2px;
-        padding: 3px;
+        padding: 1px;
         font-size: 7pt;
         position: relative;
     }
@@ -403,8 +403,8 @@
     }
 
     .onechara .img-rounded {
-        width: 170px;
-        height: 170px;
+        width: 140px;
+        height: 80px;
         overflow: hidden;
     }
 
