@@ -344,14 +344,14 @@
     }
 
     .onearm {
-        width: calc(100%/3 - 2px);
+        width: calc(100%/4 - 2px);
         float: left;
         display: inline;
         overflow: auto;
-        margin: 4px 1px;
+        margin: 1px 1px;
         border:1px solid #258;
         border-radius: 2px;
-        padding: 3px;
+        padding: 1px;
         font-size: 7pt;
         position: relative;
     }
@@ -361,8 +361,8 @@
     }
 
     .onearm .img-rounded {
-        width: 170px;
-        height: 170px;
+        width: 135px;
+        height: 117px;
         overflow: hidden;
     }
 
