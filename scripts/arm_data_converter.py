@@ -7,11 +7,9 @@ from collections import OrderedDict
 
 skillnamelist = OrderedDict()
 
-# normal L and LL
-skillnamelist["normalLLLL"] = {
-    u"劫風の攻刃": "wind",
-}
+# Normal Skills / 通常スキル ################################################################################################
 
+# normal L and LL
 skillnamelist["normalLLM"] = {
     u"紅蓮の攻刃III": "fire",
     u"霧氷の攻刃III": "water",
@@ -30,20 +28,6 @@ skillnamelist["normalLL"] = {
     u"奈落の攻刃II": "dark"
 }
 
-skillnamelist["normalHPLL"] = {
-    u"紅蓮の守護II": "fire",
-    u"霧氷の守護II": "water",
-    u"地裂の守護II": "earth",
-    u"乱気の守護II": "wind",
-    u"天光の守護II": "light",
-    u"奈落の守護II": "dark"
-}
-
-skillnamelist["rankiShikku"] = {u"乱気の疾駆・壱": "wind"}
-skillnamelist["gurenJuin"] = {u"紅蓮の呪印・弐": "fire"}
-skillnamelist["chiretsuSenwaku"] = {u"地裂の煽惑・参": "earth"}
-skillnamelist["muhyoTuiga"] = {u"霧氷の追牙・肆": "water"}
-
 # Inferno's Insignia is usually treated as a large atk up
 skillnamelist["normalL"] = {
     u"紅蓮の攻刃": "fire",
@@ -55,6 +39,35 @@ skillnamelist["normalL"] = {
     u"紅蓮の呪印": "fire"
 }
 
+# normalM
+skillnamelist["normalM"] = {
+    u"業火の攻刃": "fire",
+    u"渦潮の攻刃": "water",
+    u"大地の攻刃": "earth",
+    u"竜巻の攻刃": "wind",
+    u"雷電の攻刃": "light",
+    u"憎悪の攻刃": "dark"
+}
+
+# normalS
+skillnamelist["normalS"] = {
+    u"火の攻刃": "fire",
+    u"水の攻刃": "water",
+    u"土の攻刃": "earth",
+    u"風の攻刃": "wind",
+    u"光の攻刃": "light",
+    u"闇の攻刃": "dark"
+}
+
+skillnamelist["normalHPLL"] = {
+    u"紅蓮の守護II": "fire",
+    u"霧氷の守護II": "water",
+    u"地裂の守護II": "earth",
+    u"乱気の守護II": "wind",
+    u"天光の守護II": "light",
+    u"奈落の守護II": "dark"
+}
+
 skillnamelist["normalHPL"] = {
     u"紅蓮の守護": "fire",
     u"霧氷の守護": "water",
@@ -64,8 +77,49 @@ skillnamelist["normalHPL"] = {
     u"奈落の守護": "dark"
 }
 
-skillnamelist["normalCriticalLLL"] = {
-    u"水禍の技巧": "water"
+skillnamelist["normalHPM"] = {
+    u"業火の守護": "fire",
+    u"渦潮の守護": "water",
+    u"大地の守護": "earth",
+    u"竜巻の守護": "wind",
+    u"雷電の守護": "light",
+    u"憎悪の守護": "dark"
+}
+
+skillnamelist["normalHPS"] = {
+    u"火の守護": "fire",
+    u"水の守護": "water",
+    u"土の守護": "earth",
+    u"風の守護": "wind",
+    u"光の守護": "light",
+    u"闇の守護": "dark"
+}
+
+skillnamelist["normalNiteL"] = {
+    u"紅蓮の二手": "fire",
+    u"霧氷の二手": "water",
+    u"地裂の二手": "earth",
+    u"乱気の二手": "wind",
+    u"天光の二手": "light",
+    u"奈落の二手": "dark"
+}
+
+skillnamelist["normalNiteM"] = {
+    u"業火の二手": "fire",
+    u"渦潮の二手": "water",
+    u"大地の二手": "earth",
+    u"竜巻の二手": "wind",
+    u"雷電の二手": "light",
+    u"憎悪の二手": "dark"
+}
+
+skillnamelist["normalNiteS"] = {
+    u"火の二手": "fire",
+    u"水の二手": "water",
+    u"土の二手": "earth",
+    u"風の二手": "wind",
+    u"光の二手": "light",
+    u"闇の二手": "dark"
 }
 
 skillnamelist["normalCriticalLL"] = {
@@ -86,6 +140,23 @@ skillnamelist["normalCriticalL"] = {
     u"奈落の技巧": "dark"
 }
 
+skillnamelist["normalCriticalM"] = {
+    u"業火の技巧": "fire",
+    u"渦潮の技巧": "water",
+    u"大地の技巧": "earth",
+    u"竜巻の技巧": "wind",
+    u"雷電の技巧": "light",
+    u"憎悪の技巧": "dark"
+}
+
+skillnamelist["normalCriticalS"] = {
+    u"火の技巧": "fire",
+    u"水の技巧": "water",
+    u"土の技巧": "earth",
+    u"風の技巧": "wind",
+    u"光の技巧": "light",
+    u"闇の技巧": "dark"
+}
 
 skillnamelist["normalHaisuiL"] = {
     u"紅蓮の背水": "fire",
@@ -96,64 +167,25 @@ skillnamelist["normalHaisuiL"] = {
     u"奈落の背水": "dark"
 }
 
-skillnamelist["normalHaisuiLL"] = {
-    u"炎威の背水": "fire"
+skillnamelist["normalHaisuiM"] = {
+    u"業火の背水": "fire",
+    u"渦潮の背水": "water",
+    u"大地の背水": "earth",
+    u"竜巻の背水": "wind",
+    u"雷電の背水": "light",
+    u"憎悪の背水": "dark"
 }
 
-skillnamelist["normalBoukunLLL"] = {
-    u"紅蓮の暴君II": "fire",
-    u"霧氷の暴君II": "water",
-    u"地裂の暴君II": "earth",
-    u"乱気の暴君II": "wind",
-    u"天光の暴君II": "light",
-    u"奈落の暴君II": "dark"
-}
-
-skillnamelist["normalBoukunL"] = {
-    u"紅蓮の暴君": "fire",
-    u"霧氷の暴君": "water",
-    u"地裂の暴君": "earth",
-    u"乱気の暴君": "wind",
-    u"天光の暴君": "light",
-    u"奈落の暴君": "dark"
-}
-
-skillnamelist["normalNiteL"] = {
-    u"紅蓮の二手": "fire",
-    u"霧氷の二手": "water",
-    u"地裂の二手": "earth",
-    u"乱気の二手": "wind",
-    u"天光の二手": "light",
-    u"奈落の二手": "dark"
-}
-
-skillnamelist["normalSanteLL"] = {
-    u"威光の三手": "light",
-}
-
-skillnamelist["normalSanteL"] = {
-    u"紅蓮の三手": "fire",
-    u"霧氷の三手": "water",
-    u"地裂の三手": "earth",
-    u"乱気の三手": "wind",
-    u"天光の三手": "light",
-    u"奈落の三手": "dark"
-}
-
-skillnamelist["normalSanteM"] = {
-    u"業火の三手": "fire",
-    u"渦潮の三手": "water",
-    u"大地の三手": "earth",
-    u"竜巻の三手": "wind",
-    u"雷電の三手": "light",
-    u"憎悪の三手": "dark"
+skillnamelist["normalHaisuiS"] = {
+    u"火の背水": "fire",
+    u"水の背水": "water",
+    u"土の背水": "earth",
+    u"風の背水": "wind",
+    u"光の背水": "light",
+    u"闇の背水": "dark"
 }
 
 # Although stamina can be handled normally at present, if ~ star skill is to be treated as a separate frame, it is necessary to make it different skill
-skillnamelist["normalKonshinLLL"] = {
-    u"呪蝕の渾身": "dark"
-}
-
 skillnamelist["normalKonshinLL"] = {
     u"紅蓮の渾身II": "fire",
     u"霧氷の渾身II": "water",
@@ -176,91 +208,6 @@ skillnamelist["normalKonshinL"] = {
     u"白星の渾身": "light"
 }
 
-skillnamelist["normalKamuiL"] = {
-    u"紅蓮の神威": "fire",
-    u"霧氷の神威": "water",
-    u"地裂の神威": "earth",
-    u"乱気の神威": "wind",
-    u"天光の神威": "light",
-    u"奈落の神威": "dark"
-}
-
-skillnamelist["normalKatsumokuS"] = {
-    u"紅蓮の括目": "fire",
-    u"霧氷の括目": "water",
-    u"地裂の括目": "earth",
-    u"乱気の括目": "wind",
-    u"天光の括目": "light",
-    u"奈落の括目": "dark"
-}
-
-skillnamelist["cherubimKonshin"] = {
-    u"鷲と人間の思慮": "dark"
-}
-
-skillnamelist["sunbladeKonshin"] = {
-    u"道天の眩耀": "light"
-}
-
-skillnamelist["diaboliHaisui"] = {
-    u"普天の呼び声": "dark"
-}
-
-# normalM
-skillnamelist["normalM"] = {
-    u"業火の攻刃": "fire",
-    u"渦潮の攻刃": "water",
-    u"大地の攻刃": "earth",
-    u"竜巻の攻刃": "wind",
-    u"雷電の攻刃": "light",
-    u"憎悪の攻刃": "dark"
-}
-
-skillnamelist["normalHPM"] = {
-    u"業火の守護": "fire",
-    u"渦潮の守護": "water",
-    u"大地の守護": "earth",
-    u"竜巻の守護": "wind",
-    u"雷電の守護": "light",
-    u"憎悪の守護": "dark"
-}
-
-skillnamelist["normalKamuiM"] = {
-    u"業火の神威": "fire",
-    u"渦潮の神威": "water",
-    u"大地の神威": "earth",
-    u"竜巻の神威": "wind",
-    u"雷電の神威": "light",
-    u"憎悪の神威": "dark"
-}
-
-skillnamelist["normalNiteM"] = {
-    u"業火の二手": "fire",
-    u"渦潮の二手": "water",
-    u"大地の二手": "earth",
-    u"竜巻の二手": "wind",
-    u"雷電の二手": "light",
-    u"憎悪の二手": "dark"
-}
-
-skillnamelist["normalCriticalM"] = {
-    u"業火の技巧": "fire",
-    u"渦潮の技巧": "water",
-    u"大地の技巧": "earth",
-    u"竜巻の技巧": "wind",
-    u"雷電の技巧": "light",
-    u"憎悪の技巧": "dark"
-}
-
-skillnamelist["normalHaisuiM"] = {
-    u"業火の背水": "fire",
-    u"渦潮の背水": "water",
-    u"大地の背水": "earth",
-    u"竜巻の背水": "wind",
-    u"雷電の背水": "light",
-    u"憎悪の背水": "dark"
-}
-
 skillnamelist["normalKonshinM"] = {
     u"業火の渾身": "fire",
     u"渦潮の渾身": "water",
@@ -268,138 +215,6 @@ skillnamelist["normalKonshinM"] = {
     u"竜巻の渾身": "wind",
     u"雷電の渾身": "light",
     u"憎悪の渾身": "dark"
-}
-
-skillnamelist["normalSetsuna"] = {
-    u"業火の刹那": "fire",
-    u"渦潮の刹那": "water",
-    u"大地の刹那": "earth",
-    u"竜巻の刹那": "wind",
-    u"雷電の刹那": "light",
-    u"憎悪の刹那": "dark"
-}
-
-skillnamelist["normalKatsumiS"] = {
-    u"火の克己": "fire",
-    u"水の克己": "water",
-    u"土の克己": "earth",
-    u"風の克己": "wind",
-    u"光の克己": "light",
-    u"闇の克己": "dark"
-}
-
-skillnamelist["normalKatsumiM"] = {
-    u"業火の克己": "fire",
-    u"渦潮の克己": "water",
-    u"大地の克己": "earth",
-    u"竜巻の克己": "wind",
-    u"雷電の克己": "light",
-    u"憎悪の克己": "dark"
-}
-
-skillnamelist["normalElementM"] = {
-    u"業火の進境": "fire",
-    u"渦潮の進境": "water",
-    u"大地の進境": "earth",
-    u"竜巻の進境": "wind",
-    u"雷電の進境": "light",
-    u"憎悪の進境": "dark",
-}
-
-skillnamelist["normalElementL"] = {
-    u"紅蓮の進境": "fire",
-    u"霧氷の進境": "water",
-    u"地裂の進境": "earth",
-    u"乱気の進境": "wind",
-    u"天光の進境": "light",
-    u"奈落の進境": "dark"
-}
-
-skillnamelist["dracoATK"] = {
-    u"ウィルナスの炎威": "fire",
-    u"ワムデュスの水禍": "water",
-    u"ガレヲンの巌迫": "earth",
-    u"イーウィヤの劫風": "wind",
-    u"ル・オーの威光": "light",
-    u"フェディエルの呪蝕": "dark"
-}
-
-skillnamelist["kaijinnoyogen"] = {
-    u"海神の予言": "water"
-}
-
-skillnamelist["normalRasetsuM"] = {
-    u"業火の羅刹": "fire",
-    u"渦潮の羅刹": "water",
-    u"大地の羅刹": "earth",
-    u"竜巻の羅刹": "wind",
-    u"雷電の羅刹": "light",
-    u"憎悪の羅刹": "dark"
-}
-
-# Musou: Attack up + double atk rate
-skillnamelist["normalMusouM"] = {
-    u"業火の無双": "fire",
-    u"渦潮の無双": "water",
-    u"大地の無双": "earth",
-    u"竜巻の無双": "wind",
-    u"雷電の無双": "light",
-    u"憎悪の無双": "dark"
-}
-
-skillnamelist["normalMusouLL"] = {
-    u"業火の無双II": "fire",
-    u"渦潮の無双II": "water",
-    u"地裂の無双II": "earth",
-    u"竜巻の無双II": "wind",
-    u"雷電の無双II": "light",
-    u"憎悪の無双II": "dark"
-}
-
-skillnamelist["normalJinkaiS"] = {
-    u"火の刃界": "fire",
-    u"水の刃界": "water",
-    u"土の刃界": "earth",
-    u"風の刃界": "wind",
-    u"光の刃界": "light",
-    u"闇の刃界": "dark"
-}
-
-# normalS
-skillnamelist["normalS"] = {
-    u"火の攻刃": "fire",
-    u"水の攻刃": "water",
-    u"土の攻刃": "earth",
-    u"風の攻刃": "wind",
-    u"光の攻刃": "light",
-    u"闇の攻刃": "dark"
-}
-
-skillnamelist["normalHPS"] = {
-    u"火の守護": "fire",
-    u"水の守護": "water",
-    u"土の守護": "earth",
-    u"風の守護": "wind",
-    u"光の守護": "light",
-    u"闇の守護": "dark"
-}
-
-skillnamelist["normalCriticalS"] = {
-    u"火の技巧": "fire",
-    u"水の技巧": "water",
-    u"土の技巧": "earth",
-    u"風の技巧": "wind",
-    u"光の技巧": "light",
-    u"闇の技巧": "dark"
-}
-
-skillnamelist["normalHaisuiS"] = {
-    u"火の背水": "fire",
-    u"水の背水": "water",
-    u"土の背水": "earth",
-    u"風の背水": "wind",
-    u"光の背水": "light",
-    u"闇の背水": "dark"
 }
 
 skillnamelist["normalKonshinS"] = {
@@ -411,6 +226,60 @@ skillnamelist["normalKonshinS"] = {
     u"闇の渾身": "dark"
 }
 
+skillnamelist["normalHiouL"] = {
+    u"紅蓮の秘奥": "fire",
+    u"霧氷の秘奥": "water",
+    u"地裂の秘奥": "earth",
+    u"乱気の秘奥": "wind",
+    u"天光の秘奥": "light",
+    u"奈落の秘奥": "dark"
+}
+
+skillnamelist["normalHiouM"] = {
+    u"業火の秘奥": "fire",
+    u"渦潮の秘奥": "water",
+    u"大地の秘奥": "earth",
+    u"竜巻の秘奥": "wind",
+    u"雷電の秘奥": "light",
+    u"憎悪の秘奥": "dark"
+}
+
+skillnamelist["normalHiouS"] = {
+    u"火の秘奥": "fire",
+    u"水の秘奥": "water",
+    u"土の秘奥": "earth",
+    u"風の秘奥": "wind",
+    u"光の秘奥": "light",
+    u"闇の秘奥": "dark"
+}
+
+skillnamelist["normalHigoS"] = {
+    u"火の庇護": "fire",
+    u"水の庇護": "water",
+    u"土の庇護": "earth",
+    u"風の庇護": "wind",
+    u"光の庇護": "light",
+    u"闇の庇護": "dark"
+}
+
+skillnamelist["normalKamuiL"] = {
+    u"紅蓮の神威": "fire",
+    u"霧氷の神威": "water",
+    u"地裂の神威": "earth",
+    u"乱気の神威": "wind",
+    u"天光の神威": "light",
+    u"奈落の神威": "dark"
+}
+
+skillnamelist["normalKamuiM"] = {
+    u"業火の神威": "fire",
+    u"渦潮の神威": "water",
+    u"大地の神威": "earth",
+    u"竜巻の神威": "wind",
+    u"雷電の神威": "light",
+    u"憎悪の神威": "dark"
+}
+
 skillnamelist["normalKamui"] = {
     u"火の神威": "fire",
     u"水の神威": "water",
@@ -420,31 +289,40 @@ skillnamelist["normalKamui"] = {
     u"闇の神威": "dark"
 }
 
-skillnamelist["normalNiteS"] = {
-    u"火の二手": "fire",
-    u"水の二手": "water",
-    u"土の二手": "earth",
-    u"風の二手": "wind",
-    u"光の二手": "light",
-    u"闇の二手": "dark"
+# Musou: Attack up + double atk rate
+skillnamelist["normalMusouLL"] = {
+    u"業火の無双II": "fire",
+    u"渦潮の無双II": "water",
+    u"地裂の無双II": "earth",
+    u"竜巻の無双II": "wind",
+    u"雷電の無双II": "light",
+    u"憎悪の無双II": "dark"
+}
+skillnamelist["normalMusouM"] = {
+    u"業火の無双": "fire",
+    u"渦潮の無双": "water",
+    u"大地の無双": "earth",
+    u"竜巻の無双": "wind",
+    u"雷電の無双": "light",
+    u"憎悪の無双": "dark"
 }
 
-skillnamelist["normalSanteS"] = {
-    u"火の三手": "fire",
-    u"水の三手": "water",
-    u"土の三手": "earth",
-    u"風の三手": "wind",
-    u"光の三手": "light",
-    u"闇の三手": "dark"
+skillnamelist["normalRanbuM"] = {
+    u"業火の乱舞": "fire",
+    u"渦潮の乱舞": "water",
+    u"大地の乱舞": "earth",
+    u"竜巻の乱舞": "wind",
+    u"雷電の乱舞": "light",
+    u"憎悪の乱舞": "dark"
 }
 
-skillnamelist["normalSetsunaS"] = {
-    u"火の刹那": "fire",
-    u"水の刹那": "water",
-    u"土の刹那": "earth",
-    u"風の刹那": "wind",
-    u"光の刹那": "light",
-    u"闇の刹那": "dark"
+skillnamelist["normalRanbuS"] = {
+    u"火の乱舞": "fire",
+    u"水の乱舞": "water",
+    u"土の乱舞": "earth",
+    u"風の乱舞": "wind",
+    u"光の乱舞": "light",
+    u"闇の乱舞": "dark"
 }
 
 skillnamelist["normalSetsunaLL"] = {
@@ -465,58 +343,105 @@ skillnamelist["normalSetsunaL"] = {
     u"奈落の刹那": "dark"
 }
 
-skillnamelist["normalRanbuS"] = {
-    u"火の乱舞": "fire",
-    u"水の乱舞": "water",
-    u"土の乱舞": "earth",
-    u"風の乱舞": "wind",
-    u"光の乱舞": "light",
-    u"闇の乱舞": "dark"
+skillnamelist["normalSetsuna"] = {
+    u"業火の刹那": "fire",
+    u"渦潮の刹那": "water",
+    u"大地の刹那": "earth",
+    u"竜巻の刹那": "wind",
+    u"雷電の刹那": "light",
+    u"憎悪の刹那": "dark"
 }
 
-skillnamelist["normalRanbuM"] = {
-    u"業火の乱舞": "fire",
-    u"渦潮の乱舞": "water",
-    u"大地の乱舞": "earth",
-    u"竜巻の乱舞": "wind",
-    u"雷電の乱舞": "light",
-    u"憎悪の乱舞": "dark"
+skillnamelist["normalSetsunaS"] = {
+    u"火の刹那": "fire",
+    u"水の刹那": "water",
+    u"土の刹那": "earth",
+    u"風の刹那": "wind",
+    u"光の刹那": "light",
+    u"闇の刹那": "dark"
 }
 
-skillnamelist["normalHiouS"] = {
-    u"火の秘奥": "fire",
-    u"水の秘奥": "water",
-    u"土の秘奥": "earth",
-    u"風の秘奥": "wind",
-    u"光の秘奥": "light",
-    u"闇の秘奥": "dark"
+# 守護 + 技巧
+skillnamelist["normalJinkaiS"] = {
+    u"火の刃界": "fire",
+    u"水の刃界": "water",
+    u"土の刃界": "earth",
+    u"風の刃界": "wind",
+    u"光の刃界": "light",
+    u"闇の刃界": "dark"
 }
 
-skillnamelist["normalHiouM"] = {
-    u"業火の秘奥": "fire",
-    u"渦潮の秘奥": "water",
-    u"大地の秘奥": "earth",
-    u"竜巻の秘奥": "wind",
-    u"雷電の秘奥": "light",
-    u"憎悪の秘奥": "dark"
+# Grace
+skillnamelist["normalOntyouM"] = {
+    u"業火の恩寵": "fire",
+    u"渦潮の恩寵": "water",
+    u"大地の恩寵": "earth",
+    u"竜巻の恩寵": "wind",
+    u"雷電の恩寵": "light",
+    u"憎悪の恩寵": "dark"
 }
 
-skillnamelist["normalHiouL"] = {
-    u"紅蓮の秘奥": "fire",
-    u"霧氷の秘奥": "water",
-    u"地裂の秘奥": "earth",
-    u"乱気の秘奥": "wind",
-    u"天光の秘奥": "light",
-    u"奈落の秘奥": "dark"
+skillnamelist["normalOntyouS"] = {
+    u"火の恩寵": "fire",
+    u"水の恩寵": "water",
+    u"土の恩寵": "earth",
+    u"風の恩寵": "wind",
+    u"光の恩寵": "light",
+    u"闇の恩寵": "dark"
 }
 
-skillnamelist["normalHissatsuM"] = {
-    u"業火の必殺": "fire",
-    u"渦潮の必殺": "water",
-    u"大地の必殺": "earth",
-    u"竜巻の必殺": "wind",
-    u"雷電の必殺": "light",
-    u"憎悪の必殺": "dark"
+skillnamelist["normalSanteL"] = {
+    u"紅蓮の三手": "fire",
+    u"霧氷の三手": "water",
+    u"地裂の三手": "earth",
+    u"乱気の三手": "wind",
+    u"天光の三手": "light",
+    u"奈落の三手": "dark"
+}
+
+skillnamelist["normalSanteM"] = {
+    u"業火の三手": "fire",
+    u"渦潮の三手": "water",
+    u"大地の三手": "earth",
+    u"竜巻の三手": "wind",
+    u"雷電の三手": "light",
+    u"憎悪の三手": "dark"
+}
+
+skillnamelist["normalSanteS"] = {
+    u"火の三手": "fire",
+    u"水の三手": "water",
+    u"土の三手": "earth",
+    u"風の三手": "wind",
+    u"光の三手": "light",
+    u"闇の三手": "dark"
+}
+
+skillnamelist["normalKatsumiM"] = {
+    u"業火の克己": "fire",
+    u"渦潮の克己": "water",
+    u"大地の克己": "earth",
+    u"竜巻の克己": "wind",
+    u"雷電の克己": "light",
+    u"憎悪の克己": "dark"
+}
+
+skillnamelist["normalKatsumiS"] = {
+    u"火の克己": "fire",
+    u"水の克己": "water",
+    u"土の克己": "earth",
+    u"風の克己": "wind",
+    u"光の克己": "light",
+    u"闇の克己": "dark"
+}
+
+skillnamelist["normalKatsumokuS"] = {
+    u"紅蓮の括目": "fire",
+    u"霧氷の括目": "water",
+    u"地裂の括目": "earth",
+    u"乱気の括目": "wind",
+    u"天光の括目": "light",
+    u"奈落の括目": "dark"
 }
 
 skillnamelist["normalHissatsuL"] = {
@@ -528,8 +453,13 @@ skillnamelist["normalHissatsuL"] = {
     u"奈落の必殺": "dark"
 }
 
-skillnamelist["normalHiouLL"] = {
-    u"巌迫の秘奥": "earth"
+skillnamelist["normalHissatsuM"] = {
+    u"業火の必殺": "fire",
+    u"渦潮の必殺": "water",
+    u"大地の必殺": "earth",
+    u"竜巻の必殺": "wind",
+    u"雷電の必殺": "light",
+    u"憎悪の必殺": "dark"
 }
 
 skillnamelist["normalEiketsuL"] = {
@@ -541,23 +471,31 @@ skillnamelist["normalEiketsuL"] = {
     u"奈落の英傑": "dark"
 }
 
-# Grace
-skillnamelist["normalOntyouS"] = {
-    u"火の恩寵": "fire",
-    u"水の恩寵": "water",
-    u"土の恩寵": "earth",
-    u"風の恩寵": "wind",
-    u"光の恩寵": "light",
-    u"闇の恩寵": "dark"
+skillnamelist["normalBoukunLLL"] = {
+    u"紅蓮の暴君II": "fire",
+    u"霧氷の暴君II": "water",
+    u"地裂の暴君II": "earth",
+    u"乱気の暴君II": "wind",
+    u"天光の暴君II": "light",
+    u"奈落の暴君II": "dark"
 }
 
-skillnamelist["normalOntyouM"] = {
-    u"業火の恩寵": "fire",
-    u"渦潮の恩寵": "water",
-    u"大地の恩寵": "earth",
-    u"竜巻の恩寵": "wind",
-    u"雷電の恩寵": "light",
-    u"憎悪の恩寵": "dark"
+skillnamelist["normalBoukunL"] = {
+    u"紅蓮の暴君": "fire",
+    u"霧氷の暴君": "water",
+    u"地裂の暴君": "earth",
+    u"乱気の暴君": "wind",
+    u"天光の暴君": "light",
+    u"奈落の暴君": "dark"
+}
+
+skillnamelist["normalRasetsuM"] = {
+    u"業火の羅刹": "fire",
+    u"渦潮の羅刹": "water",
+    u"大地の羅刹": "earth",
+    u"竜巻の羅刹": "wind",
+    u"雷電の羅刹": "light",
+    u"憎悪の羅刹": "dark"
 }
 
 # Essence
@@ -570,20 +508,58 @@ skillnamelist["normalSeisyouM"] = {
     u"憎悪の星晶": "dark"
 }
 
-skillnamelist["normalHigoS"] = {
-    u"火の庇護": "fire",
-    u"水の庇護": "water",
-    u"土の庇護": "earth",
-    u"風の庇護": "wind",
-    u"光の庇護": "light",
-    u"闇の庇護": "dark"
+skillnamelist["normalElementL"] = {
+    u"紅蓮の進境": "fire",
+    u"霧氷の進境": "water",
+    u"地裂の進境": "earth",
+    u"乱気の進境": "wind",
+    u"天光の進境": "light",
+    u"奈落の進境": "dark"
+}
+
+skillnamelist["normalElementM"] = {
+    u"業火の進境": "fire",
+    u"渦潮の進境": "water",
+    u"大地の進境": "earth",
+    u"竜巻の進境": "wind",
+    u"雷電の進境": "light",
+    u"憎悪の進境": "dark",
 }
 
 skillnamelist["normalSoka"] = {
     u"竜巻の楚歌": "wind",
 }
 
-# Magna skills / 方陣スキル #################################################################################################
+skillnamelist["rankiShikku"] = {u"乱気の疾駆・壱": "wind"}
+skillnamelist["gurenJuin"] = {u"紅蓮の呪印・弐": "fire"}
+skillnamelist["chiretsuSenwaku"] = {u"地裂の煽惑・参": "earth"}
+skillnamelist["muhyoTuiga"] = {u"霧氷の追牙・肆": "water"}
+
+skillnamelist["normalHaisuiLL"] = {
+    u"炎威の背水": "fire"
+}
+
+skillnamelist["normalCriticalLLL"] = {
+    u"水禍の技巧": "water"
+}
+
+skillnamelist["normalHiouLL"] = {
+    u"巌迫の秘奥": "earth"
+}
+
+skillnamelist["normalLLLL"] = {
+    u"劫風の攻刃": "wind",
+}
+
+skillnamelist["normalSanteLL"] = {
+    u"威光の三手": "light",
+}
+
+skillnamelist["normalKonshinLLL"] = {
+    u"呪蝕の渾身": "dark"
+}
+
+# Magna Skills / 方陣スキル #################################################################################################
 
 # Might II / 攻刃II
 skillnamelist["magnaL"] = {
@@ -1104,6 +1080,65 @@ skillnamelist["strengthS"] = {
     u"スピードスペル": "light",
 }
 
+# EX守護(大) 工事中
+# skillnamelist[""] = {
+#     u"ブレイズオブタフネス": "fire",
+#     u"フラッドオブタフネス": "water",
+#     u"グラウンドオブタフネス": "earth",
+#     u"ゲイルオブタフネス": "wind",
+#     u"シャインオブタフネス": "light",
+#     u"シャドウオブタフネス": "dark",
+#     u"ゴールドスライムの守護": "light"
+#     u"シルバースライムの守護": "dark",
+# }
+
+# EX守護(中) 工事中
+# skillnamelist[""] = {
+#     u"花戦の守護": "wind",
+#     u"錬金の守護": "light",
+#     u"美食の守護": "earth",
+#     u"スタイリッシュな守護": "water",
+#     u"刺々の守護": "fire",
+#     u"マナリアの守護": "wind",
+#     u"紫水の守護": "dark",
+#     u"狐火の守護": "fire",
+#     u"竜伐の守護": "earth",
+#     u"アーキテクト・VIT": "dark",
+#     u"煩悩の守護": "wind",
+#     u"智天の守護": "light",
+#     u"壊獣デスパワーQ": "dark",
+#     u"熱砂の守護": "fire",
+#     u"甘熟バナナ": "water",
+#     u"音階の守護": "earth",
+#     u"香ばしい香りの守護": "light",
+#     u"特攻の守護": "wind",
+#     u"穿孔の守護": "earth",
+#     u"デリシャスな守護": "fire",
+#     u"恨ミノ守護": "dark",
+#     u"VITシール": "light",
+#     u"にくきゅうの守護": "earth",
+#     u"スケバンの守護": "earth",
+#     u"つはものの守護": "water",
+#     u"稽古の守護": "earth",
+#     u"鮫肌の守護": "dark",
+#     u"抜きわれの守護": "water",
+#     u"理知の守護": "wind",
+#     u"黒竜騎士団の守護": "earth",
+#     u"燐火の守護": "light",
+#     u"上昇気流の守護": "wind",
+#     u"食べ歩きの守護": "earth",
+#     u"緋緋色の守護": "dark",
+#     u"裏社会の守護": "dark",
+#     u"手練れの守護": "earth",
+#     u"心配りの守護": "wind",
+#     u"二枚貝の守護": "water",
+#     u"紋旗の守護": "fire",
+#     u"奮戦の守護": "dark",
+#     u"骨格の守護": "light",
+#     u"サウナーの守護": "wind",
+#     u"スライムの守護": "water",
+# }
+
 skillnamelist["exATKandHPM"] = {
     u"蒼薔薇の髄": "water",
     u"翠薔薇の髄": "wind",
@@ -1142,6 +1177,15 @@ skillnamelist["exSensei"] = {
     u"封印されし未確認の力": "dark",
 }
 
+skillnamelist["dracoATK"] = {
+    u"ウィルナスの炎威": "fire",
+    u"ワムデュスの水禍": "water",
+    u"ガレヲンの巌迫": "earth",
+    u"イーウィヤの劫風": "wind",
+    u"ル・オーの威光": "light",
+    u"フェディエルの呪蝕": "dark"
+}
+
 skillnamelist["strengthHaisuiM"] = {u"マジックチャージ": "light"}
 skillnamelist["unknownOtherBoukunL"] = {u"ミフネ流剣法・極意": "fire", u"インテリジェンス": "dark"}
 skillnamelist["unknownOtherNiteS"] = {u"ミフネ流剣法・双星": "fire", u"デクステリティ": "dark"}
@@ -1176,7 +1220,6 @@ skillnamelist["tenshiShukufuku"] = {
     u"堕落のすゝめ": "dark"
 }
 
-
 # Hollowsky Weapons / 虚ろなる神器
 skillnamelist["akasha-sword"] = {u"虚脱の隻翼": "dark"}
 skillnamelist["akasha-spear"] = {u"虚栄の矛戟": "fire"}
@@ -1189,7 +1232,6 @@ skillnamelist["victorious-covenant"] = {u"凱歌の誓約": "water"}
 skillnamelist["contentious-covenant"] = {u"修羅の誓約": "earth"}
 skillnamelist["deleterious-covenant"] = {u"致命の誓約": "light"}
 skillnamelist["calamitous-covenant"] = {u"災禍の誓約": "dark"}
-
 
 # Astral Weapons / アストラルウェポン
 skillnamelist["astralblow"] = {
@@ -1205,7 +1247,6 @@ skillnamelist["astralclaw"] = {
     u"アストラル・クロー": "dark"
 }
 
-
 # Ultima Weapons / オメガウェポン
 # Attribute as a temporary fire
 skillnamelist["omega-raw"] = {
@@ -1220,7 +1261,6 @@ skillnamelist["omega-raw"] = {
     u"ムーシカ・ルーベル": "fire",
     u"マカエラ・ルーベル": "fire",
 }
-
 
 # Bahamut Weapons / バハムートウェポン
 # Bahamut fist has the same skill name so process first
@@ -1244,7 +1284,16 @@ skillnamelist["bahaFUATHP-spear"] = {u"コンキリオ・コルヌ": "dark"}
 skillnamelist["bahaFUATHP-axe"] = {u"コンキリオ・テラ": "dark"}
 skillnamelist["bahaFUATHP-wand"] = {u"コンキリオ・インベル": "dark"}
 skillnamelist["bahaFUATHP-gun"] = {u"コンキリオ・アルボス": "dark"}
-
+# skillnamelist[""] = {u"ヴィータ・イグニス": "dark"}
+# skillnamelist[""] = {u"インクルシオー・ウェントス": "dark"}
+# skillnamelist[""] = {u"インクルシオー・コルヌ": "dark"}
+# skillnamelist[""] = {u"インクルシオー・テラ": "dark"}
+# skillnamelist[""] = {u"ヴィータ・インベル": "dark"}
+# skillnamelist[""] = {u"インクルシオー・アルボス": "dark"}
+# skillnamelist[""] = {u"ラピドゥス・ヒュムアニムス": "dark"}
+# skillnamelist[""] = {u"ラピドゥス・エルンアニムス": "dark"}
+# skillnamelist[""] = {u"ラピドゥス・ハヴンアニムス": "dark"}
+# skillnamelist[""] = {u"ラピドゥス・ドーラアニムス": "dark"}
 
 # Cosmos Weapons / コスモスシリーズ
 skillnamelist["cosmos-swordII"] = {u"ソード・オブ・コスモスII": "light"}
@@ -1278,7 +1327,6 @@ skillnamelist["cosmos-bow-limit"] = {u"秩序の蒼弓": "light"}
 skillnamelist["cosmos-music-limit"] = {u"秩序の蒼琴": "light"}
 skillnamelist["cosmos-katana-limit"] = {u"秩序の蒼刀": "light"}
 
-
 # Superlative Weapons / スペリオルシリーズ
 # Attribute as a temporary all
 skillnamelist["rightway_pathfinderII"] = {u"王道を征く者II": "all"}
@@ -1293,6 +1341,21 @@ skillnamelist["apocalyptic_power"] = {u"万物を砕く剛技": "all"}
 skillnamelist["slaysnakes_mythII"] = {u"戮蛇の神刀II": "all"}
 skillnamelist["slaysnakes_myth"] = {u"戮蛇の神刀": "all"}
 
+skillnamelist["cherubimKonshin"] = {
+    u"鷲と人間の思慮": "dark"
+}
+
+skillnamelist["sunbladeKonshin"] = {
+    u"道天の眩耀": "light"
+}
+
+skillnamelist["diaboliHaisui"] = {
+    u"普天の呼び声": "dark"
+}
+
+skillnamelist["kaijinnoyogen"] = {
+    u"海神の予言": "water"
+}
 
 skillnamelist["normalAtkFistPugilism"] = {
     u"古代の闘術": "earth",
@@ -1315,15 +1378,15 @@ skillnamelist["sensei"] = {
 
 # Damage cap up
 skillnamelist["normalDamageLimit7"] = {
-    u"炎熱の刀身": "fire",
-    u"賢者の加護": "earth",
-    u"英雄の体躯": "light",
     u"焔の真髄": "fire",
     u"雪の真髄": "water",
     u"界の真髄": "earth",
     u"凪の真髄": "wind",
     u"煌の真髄": "light",
     u"煉の真髄": "dark",
+    u"炎熱の刀身": "fire",
+    u"賢者の加護": "earth",
+    u"英雄の体躯": "light",
 }
 skillnamelist["normalDamageLimit10"] = {
     u"靂天の極致": "dark",
@@ -1368,9 +1431,61 @@ skillnamelist["epic-absoluteEquality"] = {
     u"ソール・イコーリティ": "dark",
 }
 
+# 工事中
+# skillnamelist[""] = {u"ボルテージ・オブ・ソード": ""}
+# skillnamelist[""] = {u"ボルテージ・オブ・ダガー": ""}
+# skillnamelist[""] = {u"ボルテージ・オブ・スピア": ""}
+# skillnamelist[""] = {u"ボルテージ・オブ・アックス": ""}
+# skillnamelist[""] = {u"ボルテージ・オブ・スタッフ": ""}
+# skillnamelist[""] = {u"ボルテージ・オブ・ガン": ""}
+# skillnamelist[""] = {u"ボルテージ・オブ・ガントレット": ""}
+# skillnamelist[""] = {u"ボルテージ・オブ・ボウ": ""}
+# skillnamelist[""] = {u"ボルテージ・オブ・ハープ": ""}
+# skillnamelist[""] = {u"ボルテージ・オブ・ブレイド": ""}
+# skillnamelist[""] = {u"ボルテージ・オブ・ソードII": ""}
+# skillnamelist[""] = {u"ボルテージ・オブ・ダガーII": ""}
+# skillnamelist[""] = {u"ボルテージ・オブ・スピアII": ""}
+# skillnamelist[""] = {u"ボルテージ・オブ・アックスII": ""}
+# skillnamelist[""] = {u"ボルテージ・オブ・スタッフII": ""}
+# skillnamelist[""] = {u"ボルテージ・オブ・ガンII": ""}
+# skillnamelist[""] = {u"ボルテージ・オブ・ガントレットII": ""}
+# skillnamelist[""] = {u"ボルテージ・オブ・ボウII": ""}
+# skillnamelist[""] = {u"ボルテージ・オブ・ハープII": ""}
+# skillnamelist[""] = {u"ボルテージ・オブ・ブレイドII": ""}
+
+# 工事中
+# skillnamelist[""] = {u"レイジ・オブ・ソード": ""}
+# skillnamelist[""] = {u"レイジ・オブ・ダガー": ""}
+# skillnamelist[""] = {u"レイジ・オブ・スピア": ""}
+# skillnamelist[""] = {u"レイジ・オブ・アックス": ""}
+# skillnamelist[""] = {u"レイジ・オブ・スタッフ": ""}
+# skillnamelist[""] = {u"レイジ・オブ・ガン": ""}
+# skillnamelist[""] = {u"レイジ・オブ・ガントレット": ""}
+# skillnamelist[""] = {u"レイジ・オブ・ボウ": ""}
+# skillnamelist[""] = {u"レイジ・オブ・ハープ": ""}
+# skillnamelist[""] = {u"レイジ・オブ・ブレイド": ""}
+
+# 工事中
+# skillnamelist[""] = {
+#     u"スカーレット・ヴァイタリティー": "fire",
+#     u"コバルト・ヴァイタリティー": "water",
+#     u"アンバー・ヴァイタリティー": "earth",
+#     u"ジェイド・ヴァイタリティー": "wind",
+#     u"ゴールデン・ヴァイタリティー": "light",
+#     u"グラファイト・ヴァイタリティー": "dark",
+# }
+
+# 工事中
+# skillnamelist[""] = {
+#     u"スカーレット・レゾネーター": "fire",
+#     u"コバルト・レゾネーター": "water",
+#     u"アンバー・レゾネーター": "earth",
+#     u"ジェイド・レゾネーター": "wind",
+#     u"ゴールデン・レゾネーター": "light",
+#     u"グラファイト・レゾネーター": "dark",
+# }
 
 # Character specific weapon
-skillnamelist["tsuranukiKiba"] = {u"貫きの牙": "fire"}
 skillnamelist["washiouKekkai"] = {u"鷲王の結界": "fire"}
 skillnamelist["maihimeEnbu"] = {u"舞姫の演武": "water"}
 skillnamelist["hengenKengi"] = {u"変幻自在の剣技": "dark"}
@@ -1412,13 +1527,13 @@ skillnamelist["succession_of_knighthood"] = {u"騎士の血脈": "none"}
 # }
 
 skillnamelist["supplementalEmnity"] = {
-    u"朱の誓約": "fire",
     u"焔の剛毅": "fire",
     u"雪の剛毅": "water",
     u"界の剛毅": "earth",
     u"凪の剛毅": "wind",
     u"煌の剛毅": "light",
     u"煉の剛毅": "dark",
+    u"朱の誓約": "fire",
 }
 
 skillnamelist["supplementalCritical"] = {
@@ -1445,23 +1560,23 @@ skillnamelist["supplementalMulti"] = {
 # }
 
 skillnamelist["supplementalOugi"] = {
-    u"金の誓約": "earth",
     u"焔の極意": "fire",
     u"雪の極意": "water",
     u"界の極意": "earth",
     u"凪の極意": "wind",
     u"煌の極意": "light",
     u"煉の極意": "dark",
+    u"金の誓約": "earth",
 }
 
 skillnamelist["supplementalStaminaOugi"] = {
-    u'黒の誓約': "dark",
     u'焔の慈雨': "fire",
     u'雪の慈雨': "water",
     u'界の慈雨': "earth",
     u'凪の慈雨': "wind",
     u'煌の慈雨': "light",
     u'煉の慈雨': "dark",
+    u'黒の誓約': "dark",
 }
 
 ########################################################################################################################
@@ -1545,7 +1660,6 @@ def processCSVdata(csv_file_name, json_data, image_wiki_url_list, image_game_url
     skill_pattern = re.compile("\[\[([\W\w]+)\>")
     jougen_4_pattern = re.compile(u"○")
     jougen_5_pattern = re.compile(u"◎")
-    baha_pattern = re.compile(u"bahaFU")
 
     mycsv = csv.reader(open(csv_file_name, 'r', encoding="utf-8"), delimiter="|")
 
@@ -1651,7 +1765,7 @@ def processCSVdata(csv_file_name, json_data, image_wiki_url_list, image_game_url
                     if jougen_5_pattern.search(value):
                         newdict["slvmax"] = 20
                         newdict["maxlv"] = 200
-                    elif jougen_4_pattern.search(value) or baha_pattern.search(newdict["skill1"]):
+                    elif jougen_4_pattern.search(value):
                         newdict["slvmax"] = 15
                         newdict["maxlv"] = 150
                     else:

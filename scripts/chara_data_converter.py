@@ -761,6 +761,12 @@ patchingOugiRatio["ソフィア(SR)"] = {"ougiRatio": 0.0}
 patchingOugiRatio["カルメリーナ(SR)"] = {"ougiRatio": 0.0}
 patchingOugiRatio["リルル(水着ver)"] = {"ougiRatio": 0.0}
 
+# Other R Characters / その他、特殊な奥義倍率を持つRキャラ
+patchingOugiRatio["猫"] = {"ougiRatio": 2.0}
+
+# No DMG Charge Attack R Charactters / ダメージ無し奥義持ちRキャラ (奥義倍率0.0倍)
+patchingOugiRatio["クロエ"] = {"ougiRatio": 0.0}
+patchingOugiRatio["ドロッセル"] = {"ougiRatio": 0.0}
 
 ########################################################################################################################
 filename = inspect.getframeinfo(inspect.currentframe()).filename
@@ -775,13 +781,15 @@ def arm_replace(armtype):
     for armtypename, inner_armtype in armtypelist.items():
         if re.match(armtypename, armtype):
             return inner_armtype
-    return "no_favorite_arm_error"
+    print("favorite_arm_error")
+    return "error"
 
 
 def type_replace(charatype):
     for charatypename, inner_charatype in charatypelist.items():
         if re.match(charatypename, charatype):
             return inner_charatype
+    print("charatype_error")
     return "error"
 
 
@@ -789,6 +797,7 @@ def race_replace(racetype):
     for racetypename, inner_racetype in racelist.items():
         if re.match(racetypename, racetype):
             return inner_racetype
+    print("racetype_error")
     return "error"
 
 
@@ -796,6 +805,7 @@ def sex_replace(sextype):
     for sextypename, inner_sextype in sexlist.items():
         if re.match(sextypename, sextype):
             return inner_sextype
+    print("sextype_error")
     return "error"
 
 
@@ -826,7 +836,7 @@ def get_value(value_str):
 
 def processCSVdata(csv_file_name, json_data, image_wiki_url_list, image_game_url_list):
     key_pattern = re.compile("(\w+\.jpg)")
-    br_pattern = re.compile("(\w+)(?:&br;|\/)(\w+)")
+    br_pattern = re.compile("(\w+)(?:;|\/)(\w+)")
     support_pattern2 = re.compile("([\W\w]+)&br;([\W\w]+)")
     support_pattern3 = re.compile("([\W\w]+)&br;([\W\w]+)&br;([\W\w]+)")
     name_pattern = re.compile("\[\[([\W\w]+?) \((S?S?R)\)")
@@ -855,15 +865,15 @@ def processCSVdata(csv_file_name, json_data, image_wiki_url_list, image_game_url
             newdict["ja"] = name
 
             # element
-            if row[3].find("火") > 0:
+            if row[3].find("火") >= 0:
                 newdict["element"] = "fire"
-            elif row[3].find("水") > 0:
+            elif row[3].find("水") >= 0:
                 newdict["element"] = "water"
-            elif row[3].find("土") > 0:
+            elif row[3].find("土") >= 0:
                 newdict["element"] = "earth"
-            elif row[3].find("風") > 0:
+            elif row[3].find("風") >= 0:
                 newdict["element"] = "wind"
-            elif row[3].find("光") > 0:
+            elif row[3].find("光") >= 0:
                 newdict["element"] = "light"
             else:
                 newdict["element"] = "dark"
